@@ -1,3 +1,4 @@
+
 body {
   font-family: "montserrat";
 }
@@ -46,6 +47,7 @@ h3 {
   padding: 7% 15%;
   background-color: white;
   position: relative;
+
 }
 
 .feature-box {
@@ -76,6 +78,7 @@ h3 {
 .title-image {
   transform: rotate(25deg);
   position: absolute;
+  right: 30%;
 }
 
 /*testimonial section*/
@@ -116,6 +119,39 @@ h2 {
   text-align: center;
 }
 
+@media (max-width: 1360px) {
+
+#title {
+  text-align: center;
+}
+
+.title-image {
+  position: static;
+  transform: rotate(0);
+}
+
+}
+
 .pricing-column {
   padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 5% 0 5% 0;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+}
+
+.last {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold;
+  text-shadow: 4px 4px 5px rgba(150, 150, 150, 0.76);
 }
